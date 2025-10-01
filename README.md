@@ -1,2 +1,3 @@
-# neovim
-Configuring Neovim
+# Nvim config
+
+I named it SaturamaVim
