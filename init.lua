@@ -1,5 +1,9 @@
+--- * ---
 require("simple")
 require("config.lazy")
+require("config.keymaps")
+require("config.autocmds")
+require("config.gx_like_a_boss")
 
 vim.lsp.enable({
   "pylsp",
@@ -12,3 +16,6 @@ vim.diagnostic.config({
   update_in_insert = false,
   severity_sort = true,
 })
+
+
+
